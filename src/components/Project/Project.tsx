@@ -89,7 +89,7 @@ cameras and detects any of the crime is happening with the help of trained model
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Crime prediction.</li>
+                <li>Weather Classification</li>
               </ul>
             </footer>
           </div>
