@@ -67,6 +67,34 @@ cameras and detects any of the crime is happening with the help of trained model
           </div>
         </ScrollAnimation>
 
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="#" target="_blank" rel="noreferrer">
+                  <img src={project} alt="Visit site" />
+                </a>
+              <div className="project-links">
+                <a href="https://github.com/RanjithaP26" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Weather Pattern Recognition using Transfer Learning</h3>
+              <p>
+              Description:  
+              Weather Pattern Recognition system that utilizes Transfer Learning techniques. The aim of this project was to develop an efficient and accurate system for classifying weather conditions based on images.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Crime prediction.</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
        
       </div>
 

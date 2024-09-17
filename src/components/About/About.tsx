@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import Ranjitha from "../../assets/about.png";
 import htmlIcon from "../../assets/html-ico.png";
 import cssIcon from "../../assets/css-ico.png";
-import figma from "../../assets/figma.png";
+import linux from "../../assets/ubuntu_5969336.png";
 import java from "../../assets/java.png";
 import python from "../../assets/python-ico.png";
 import reactIcon from "../../assets/react-icon.svg";
@@ -25,13 +25,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          I am a proactive Computer Science Engineering student aspiring to be a Full stack Developer. 
-With hands-on project experience, I bring a robust skill set in both frontend and backend 
-development, complemented by a quick learning ability. I have successfully enhanced user 
-engagement through user-friendly interfaces, utilizing cutting-edge technologies across the 
-full stack. Eager to apply my skills and contribute to your organization, I am committed to 
-staying updated with industry trends. Thank you for considering my application; I look 
-forward to the opportunity to thrive within your esteemed team. 
+          I am an enthusiastic Computer Science student aiming to be a Linux Administrator. I have completed a Linux certification course and am currently pursuing a DevOps AWS certification course at Besant Technologies. I stay updated with industry trends and am eager to apply my skills and contribute to your team. Thank you for considering my application.
           </p>
         </ScrollAnimation>
        
@@ -57,6 +51,12 @@ forward to the opportunity to thrive within your esteemed team.
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={linux} alt="Linux" />
             </ScrollAnimation>
           </div>
 
